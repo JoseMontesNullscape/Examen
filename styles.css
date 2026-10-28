@@ -1,0 +1,60 @@
+body{
+  font-family: 'Comic Sans MS';
+  background-color:thistle;
+}
+
+header{
+  text-align: center;
+  background-color: mediumpurple;
+  border:1px solid black;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead{
+  background-color: mediumvioletred;
+}
+
+tbody{
+  background-color: white;
+}
+
+table.tablaActividades1 thead.headerTarea{
+  background-color: rgb(149, 68, 224);
+}
+
+table.tablaActividades2 thead.headerTarea{
+  background-color:orchid;
+}
+
+nav table td{
+  text-align: center;
+  border: 1px solid black;
+}
+
+section{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+td.tareaFinalizada{
+  background-color:rgb(74, 192, 74);
+  text-align: center;
+}
+
+td.tareaEnProceso {
+  background-color:rgb(255, 180, 83);
+  text-align: center;
+}
+
+td.tareaSinEntregar {
+  background-color:rgb(199, 69, 69);
+  text-align: center;
+}
+
+tr.actividad:hover {
+  background-color: rgb(244, 255, 184);
+}
