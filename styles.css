@@ -1,6 +1,9 @@
 body{
   font-family: 'Comic Sans MS';
-  background-color:thistle;
+  background-image: url('Background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header{
@@ -14,8 +17,28 @@ table{
   border-collapse: collapse;
 }
 
+table.tablaCabeza{
+  table-layout: fixed;
+}
+
 thead{
   background-color: mediumvioletred;
+  align-items: center;
+}
+
+thead.headerCabeza td:hover{
+  background-color:darkcyan;
+}
+
+thead.headerCabeza td a {
+  /* Convertimos el enlace en un bloque y le damos el padding aquí */
+  display: block;
+  text-decoration: none; /* Quita el subrayado común de los enlaces */
+  color: black;
+}
+
+thead.headerCabeza td a:hover{
+  background-color: darkcyan;
 }
 
 tbody{
